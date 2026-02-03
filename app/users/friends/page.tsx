@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 
-// Fethch Function method for API route call while in a server component
+// Fethch Function method for API route call while in a server component and for this you have to use absolute URL by uncommenting below code and commenting the other one. Also make sure to set NEXT_URL in your .env file.
 
 // async function fetchFriends() {
 //     const res = await fetch(`${process.env.NEXT_URL}/api/hello`, {
